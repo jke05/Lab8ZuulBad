@@ -27,4 +27,4 @@ designed class structure. It includes the fixes discussed in the book.
 
 
 Lab Questions:
-6.
+6. 

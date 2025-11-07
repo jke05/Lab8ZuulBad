@@ -19,6 +19,22 @@ public class Room
     public Room southExit;
     public Room eastExit;
     public Room westExit;
+    
+    public Room getExit(String direction){
+        if (direction.equals("north")){
+            return northExit;
+        }
+        if (direction.equals("east")){
+            return eastExit;
+        }
+        if (direction.equals("south")){
+            return southExit;
+        }
+        if (direction.equals("west")){
+            return westExit;
+        }
+        return null;
+    }
 
     /**
      * Create a room described "description". Initially, it has no exits. 
