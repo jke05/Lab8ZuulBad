@@ -20,6 +20,7 @@ public class Room
     public Room eastExit;
     public Room westExit;
     
+    
     public Room getExit(String direction){
         if (direction.equals("north")){
             return northExit;
