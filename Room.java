@@ -36,6 +36,26 @@ public class Room
         return null;
     }
 
+    public String getExitString(){
+        //idk what to do here
+        String Exits = "Exits: ";
+        
+        if(northExit != null) {
+            Exits += " north";
+        }
+        if(eastExit != null) {
+            Exits += " east";
+        }
+        if(southExit != null) {
+            Exits += " south";
+        }
+        if(westExit != null) {
+            Exits += " west";
+        }
+        
+        return Exits;
+    }
+
     /**
      * Create a room described "description". Initially, it has no exits. 
      * "description" is something like "a kitchen" or "an open court yard".
